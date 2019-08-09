@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Rerun suite]" parallel="methods">
+  <listeners>
+    <listener class-name="selenium_Interview_Question.IRerun_AnnotatonTransformers"/>
+  </listeners>
+  <test name="Rerun Testcase">
+    <classes>
+      <class name="selenium_Interview_Question.Rerun_FailedTestcase"/>
+    </classes>
+  </test> <!-- Rerun Testcase -->
+  <test name="Rerun Testcase(failed)" parallel="methods">
+    <classes>
+      <class name="selenium_Interview_Question.Rerun_FailedTestcase">
+        <methods>
+          <include name="test1"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- selenium_Interview_Question.Rerun_FailedTestcase -->
+    </classes>
+  </test> <!-- Rerun Testcase(failed) -->
+</suite> <!-- Failed suite [Rerun suite] -->

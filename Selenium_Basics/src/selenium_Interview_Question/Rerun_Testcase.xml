@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Rerun suite" verbose="2" parallel="methods" thread-count="2">
+<listeners>
+<listener class-name="selenium_Interview_Question.IRerun_AnnotatonTransformers">
+</listener>
+
+</listeners>
+<test name="Rerun Testcase">
+<classes>
+<class name="selenium_Interview_Question.Rerun_FailedTestcase">
+</class>
+
+</classes>
+
+</test>
+
+
+
+
+</suite>
