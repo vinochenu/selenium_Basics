@@ -14,7 +14,7 @@ public class Selectable_Example {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\e3027405\\Downloads\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\e3027405\\Downloads\\chromedriver.exe");
 		//Open Chrome Browser
 		WebDriver Object=new ChromeDriver();
 		//Get URL
